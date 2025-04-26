@@ -1,11 +1,11 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import Users from './screen/component/Users';
+import UsersAxios from './screen/component/UsersAxios';
 
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <Users />
+      <UsersAxios />
     </SafeAreaView>
   );
 }
